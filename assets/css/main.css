@@ -3903,7 +3903,17 @@ input, select, textarea {
 	background-color: #F0F0F0;
 }
 
-.video {
+.videoWrapper {
+	position: relative;
+	padding-bottom: 56.25%; /* 16:9 */
+	height: 0;
+	overflow: hidden;
+}
+
+.videoWrapper iframe {
+	position: absolute;
+	top: 0;
+	left: 0;
 	width: 100%;
-	aspect-ratio: 16 / 9;
+	height: 100%;
 }
