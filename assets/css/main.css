@@ -160,11 +160,11 @@ body {
 
 body, input, select, textarea {
     color: #000000;
-    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    font-family: "Roboto", Helvetica, sans-serif;
     font-size: 1rem;
-    font-weight: 300;
+    font-weight: 280;
     letter-spacing: 0.0375em;
-    line-height: 2;
+    line-height: 1.8;
 }
 
 a {
@@ -183,7 +183,7 @@ a {
     }
 
 strong, b {
-    font-weight: 600;
+    font-weight: 480;
     color: #000000;
 }
 
