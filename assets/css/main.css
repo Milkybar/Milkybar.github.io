@@ -3277,7 +3277,7 @@ ul.feature-icons {
     }
 
         #wrapper > section > header:before {
-            background: #43d9b8;
+            background: #07A649;
             content: '';
             display: block;
             margin-top: 1rem;
@@ -3290,7 +3290,7 @@ ul.feature-icons {
         }
 
             #wrapper > section > header h1:before, #wrapper > section > header h2:before {
-                background: #43d9b8;
+                background: #07A649;
                 content: '';
                 display: block;
                 height: 2px;
@@ -3299,7 +3299,7 @@ ul.feature-icons {
             }
 
             #wrapper > section > header h1:after, #wrapper > section > header h2:after {
-                background: #43d9b8;
+                background: #07A649;
                 border-radius: 0.5rem;
                 content: '';
                 display: block;
@@ -3307,6 +3307,7 @@ ul.feature-icons {
                 position: absolute;
                 top: 0.75rem;
                 width: 0.5rem;
+                display: none;
             }
 
         #wrapper > section > header h1 {
@@ -3356,7 +3357,7 @@ ul.feature-icons {
         }
 
         #wrapper > section:last-of-type > header:after {
-            background: #43d9b8;
+            background: #07A649;
             border-radius: 0.5rem;
             bottom: -1.5rem;
             content: '';
@@ -3365,6 +3366,7 @@ ul.feature-icons {
             position: absolute;
             width: 0.5rem;
             z-index: 1;
+            display: none;
         }
 
     #wrapper .copyright {
