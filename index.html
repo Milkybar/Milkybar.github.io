@@ -9,11 +9,17 @@
 	<!-- Google tag (gtag.js) -->
 	<script async src="https://www.googletagmanager.com/gtag/js?id=G-1T578724WZ"></script>
 	<script>
-  		window.dataLayer = window.dataLayer || [];
-  		function gtag(){dataLayer.push(arguments);}
-  		gtag('js', new Date());
-
-  		gtag('config', 'G-1T578724WZ');
+		if (document.cookie.indexOf("ga_ignore=true") === -1)
+		{
+  			window.dataLayer = window.dataLayer || [];
+  			function gtag(){dataLayer.push(arguments);}
+  			gtag('js', new Date());
+  			gtag('config', 'G-1T578724WZ');
+		}
+		else
+		{
+			console.log("ga_ignore cookie found");
+		}
 	</script>
 	<title>Luke Shires</title>
 	<meta charset="utf-8" />
